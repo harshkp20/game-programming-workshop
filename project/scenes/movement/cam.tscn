@@ -11,6 +11,7 @@
 
 [node name="Player" parent="SceneLevel" instance=ExtResource( 1 )]
 position = Vector2( 306, 248 )
+speed = 30.0
 
 [node name="Ground" parent="SceneLevel" instance=ExtResource( 2 )]
 position = Vector2( 418.776, 385.466 )
@@ -20,9 +21,7 @@ position = Vector2( 139.078, 156.622 )
 
 [node name="Camera2D" type="Camera2D" parent="SceneLevel"]
 position = Vector2( 464, 232 )
-offset = Vector2( 100, 0 )
 current = true
 smoothing_enabled = true
 smoothing_speed = 10.0
 script = ExtResource( 4 )
-offset = Vector2( 100, 0 )

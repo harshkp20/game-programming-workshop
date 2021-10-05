@@ -3,7 +3,7 @@
 [ext_resource path="res://White.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 25.4826, 25.3717 )
+extents = Vector2( 25.4826, 23.9736 )
 
 [node name="Ground" type="Node2D"]
 position = Vector2( 420.895, 220.19 )
